@@ -1,17 +1,19 @@
 @extends('adminlte::page')
 
-@section('title', 'Dashboard')
+@section('title', $title_page)
 
-@section('content_header')
-    <h1>Dashboard</h1>
-@stop
+@if (!empty($title))
+    @section('content_header')
+    <h1>{{ $title }}</h1>
+    @stop
+@endif
 
 @section('content')
     {{ $slot }}
 @stop
 
 @section('css')
-    <link rel="stylesheet" href="/css/admin_custom.css">
+    <link rel="stylesheet" href="{{ asset('css/admin_custom.css') }}">
 @stop
 
 @section('js')

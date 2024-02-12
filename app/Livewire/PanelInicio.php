@@ -8,6 +8,11 @@ class PanelInicio extends Component
 {
     public function render()
     {
-        return view('livewire.panel-inicio')->layout('layouts.admin_lte');
+        $title = '';
+        $title_page = 'Panel de inicio';
+        return view('livewire.panel-inicio')->layout('layouts.admin_lte',[
+            'title' => $title,
+            'title_page' => $title_page,
+        ]);
     }
 }

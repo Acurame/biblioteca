@@ -15,7 +15,7 @@ class usuarioSedeer extends Seeder
     {
         $usuario = [
             'name' => 'Cuervo Lunar',
-            'email' => 'cuervolunar',
+            'email' => 'cuervolunar@gmail.com',
             'password' => bcrypt('admin'),
         ];
         User::create($usuario);
