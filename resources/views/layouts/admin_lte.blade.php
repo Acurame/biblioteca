@@ -24,20 +24,29 @@
             width: 100%;
         }
 
-        .btn{
+        .btn-create {
             background-color: #F5574D;
             color: white;
         }
 
-        .btn:hover {
+        .btn-create:hover,
+        .btn-create:active {
             background-color: #da6b63;
-            color: white
+            color: white;
         }
 
-        .btn:active {
+        .btn-create:active {
             background-color: #c93c2a;
             color: #f3b9b5;
         }
+
+        .btn-search{
+            background-color: #da6b63;
+            color: white;
+        }
+
+        
+
     </style>
     <link rel="stylesheet" href="{{ asset('css/admin_custom.css') }}">
 @stop
