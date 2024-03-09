@@ -302,10 +302,10 @@ return [
         ],
 
         // Sidebar items:
-        ['header' => 'Configuraciones de perfil'],
+        ['header' => 'Inventario'],
         [
-            'text' => 'Perfil',
-            'url'  => 'admin/settings',
+            'text' => 'Libos',
+            'url'  => '/listBooks',
             'icon' => 'fas fa-fw fa-user',
         ],
         [

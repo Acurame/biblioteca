@@ -13,6 +13,20 @@
 @stop
 
 @section('css')
+    <style>
+        .title{
+            text-align: center;
+            padding-top: 2rem;
+        }
+
+        .title span{
+            color: #F5574D;
+        }
+
+        .table{
+            
+        }
+    </style>
     <link rel="stylesheet" href="{{ asset('css/admin_custom.css') }}">
 @stop
 
